@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Store from './components/Store';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <h1>Typescript</h1>
+      <Store/>
+    </>
   );
 }
 
