@@ -19,7 +19,7 @@ function App() {
         <Route path="/social-media" element={ <SocialMedia/> }/>
       </Routes>
     </>
-  );
+  )
 }
 
 export default App;
