@@ -1,17 +1,18 @@
-import React from 'react';
+import React, {FC} from 'react';
+import '../../../styles/index.css';
 import {Link} from "react-router-dom";
 
-const Navigation = () => {
+const Navigation:FC = () => {
     return (
         <nav>
-            <span>ND Shop</span>
+            <div className="nav-logo">ND<span>Shop</span></div>
 
-            <span>
+            <div className="nav-links">
                 <Link to="/">Home</Link>
                 <Link to="/products">Products</Link>
                 <Link to="/about-us">About us</Link>
                 <Link to="/social-media">Social Media</Link>
-            </span>
+            </div>
         </nav>
     );
 };
