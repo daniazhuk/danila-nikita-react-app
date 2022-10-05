@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { FC } from "react";
+import StoreItem from "./StoreItem";
 
-const StoreList = () => {
-    return (
-        <div>
-            <p>STRELIST SUKA!!!!!!!</p>
-        </div>
-    );
+const StoreList: FC = () => {
+  return (
+    <div>
+      <p>STRELIST SUKA!!!!!!!</p>
+      <StoreItem/>
+    </div>
+  );
 };
 
 export default StoreList;
