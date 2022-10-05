@@ -1,5 +1,5 @@
-import React, { FC, useEffect, useState } from "react";
-import { IProduct } from "../../types";
+import React, { FC} from "react";
+import { IProduct } from "../../../types";
 import StoreList from "./components/StoreList";
 
 const Store: FC<IProduct> = () => {

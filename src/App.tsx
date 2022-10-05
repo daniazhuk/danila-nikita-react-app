@@ -1,10 +1,10 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
-import Navigation from "./components/common/Navigation/Navigation";
-import HomePage from "./components/common/HomePage/HomePage";
-import ProductPage from "./components/common/ProductPage/ProductPage";
-import AboutUsPage from "./components/common/AboutUsPage/AboutUsPage";
-import SocialMedia from "./components/common/SocialMediaPage/SocialMediaPage";
+import Navigation from "./view/components/Navigation/Navigation";
+import HomePage from "./view/pages/HomePage/HomePage";
+import ProductPage from "./view/pages/ProductPage/ProductPage";
+import AboutUsPage from "./view/pages/AboutUsPage/AboutUsPage";
+import SocialMedia from "./view/pages/SocialMediaPage/SocialMediaPage";
 
 
 function App() {
