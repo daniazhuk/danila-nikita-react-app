@@ -1,0 +1,252 @@
+[
+    {
+      "id": 0,
+      "type": "e",
+      "brand": "Mercedes",
+      "url": "https://www.dietro.be/sites/default/files/styles/lightbox_s/public/images-src/products/606-parts_250x.png?itok=sCv1q72F",
+      "name": "Mercedes-Benz OM606 TD I6",
+      "description": "Popularly called as Diesel 2JZ. The MB OM606 - is straight inline 6, 3.0 turbo diesel. These engines deliver standard 177 HP, tuning to 250 HP and even 650 HP is possible. Also their fuel consumption is reasonably favorable with a min of 13L / 100Km. Tuned versions need 20L/100km, including the black exhaust smoke!",
+      "price": 1200,
+      "status": "none"
+    },
+    {
+        "id": 1,
+        "type": "e",
+        "brand": "Toyota",
+        "url": "https://p.turbosquid.com/ts-thumb/Kx/KFN8w2/iVuIpjpN/newsignature/jpg/1523644629/600x600/fit_q87/9547d1e725650134407e1317a4a5e91e6ae48b5e/newsignature.jpg",
+        "name": "Toyota 2JZ-GTE I6",
+        "description": "The legendary heart. Inline 6, 3.0 litre turbochargered oldschool classic. It can be forced for more than 600HP on a stock parts",
+        "price": 1550,
+        "status": "none"
+      },
+      {
+        "id": 2,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "https://avtotachki.com/wp-content/uploads/2021/07/dvigatel-mersedes-m119.jpg",
+        "name": "Mercedes-Benz M119 V8",
+        "description": "Turns a sheep into a wolf. The Mercedes-Benz M119 engine is a V8 gasoline engine that was introduced in 1989 to replace the M117 engine. The M119 engine has an aluminum and the same cylinder head, forged connecting rods, cast aluminum pistons, two camshafts for each cylinder bank (DOHC), chain drive and four valves per cylinder.",
+        "price": 1800,
+        "status": "none"
+      },
+      {
+        "id": 3,
+        "type": "e",
+        "brand": "Toyota",
+        "url": "https://massive.ua/image/engine-image/1uzfe.jpg",
+        "name": "Toyota 1UZ-FE V8",
+        "description": "The 4.0-liter V8 Toyota 1UZ-FE engine was assembled at the Tahara plant from 1989 to 2004 and installed on the most powerful rear-wheel drive models",
+        "price": 1620,
+        "status": "none"
+      },
+      {
+        "id": 4,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 5,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 6,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 7,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 8,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 9,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 10,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 11,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 12,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 13,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 14,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 15,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 16,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 17,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 18,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 19,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 20,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 21,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 22,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 23,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      },
+      {
+        "id": 24,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "",
+        "name": "Mercedes-Benz M119",
+        "description": "",
+        "price": "1200",
+        "status": "none"
+      }
+    ]    
