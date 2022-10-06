@@ -19,7 +19,7 @@ const StoreList: FC<ProdListProps> = ({ products }) => {
     <div className="interesting-posts-container">
       <hr  />
       <strong >
-        INTERESTING
+        pROD
       </strong>
       <div className="interesting-posts">
         {products.map((product, index) => (
