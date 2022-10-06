@@ -6,10 +6,12 @@ const Store: FC<IProd> = () => {
   const [products, setProducts] = useState<IProd[]>([]);
 
   useEffect(() => {
-    fetch("/public/Store.json")
+    fetch("store.json")
       .then((response) => response.json())
-      .then((products) => {
+      .then((products: IProd[]) => {
         setProducts(products);
+        console.log(products);
+        
       });
   }, []);
   return (
