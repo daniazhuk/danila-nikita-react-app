@@ -91,12 +91,12 @@
       },
       {
         "id": 9,
-        "type": "e",
-        "brand": "Mercedes",
-        "url": "",
-        "name": "Mercedes-Benz M119",
-        "description": "",
-        "price": "1200",
+        "type": "ai",
+        "brand": "Lockheed",
+        "url": "https://images.cults3d.com/m-PkegQbmw0Y8b_wCWWaoon722Y=/https://files.cults3d.com/uploaders/22674784/illustration-file/387fde33-6eda-4bea-8293-c90994a395b2/4.png",
+        "name": "Lockheed SR-71 BlackBird",
+        "description": "The Lockheed SR-71 Blackbird is a full-titanium two-seat twin-engined long-range supersonic strategic reconnaissance aircraft produced by the American manufacturer Lockheed Corporation.",
+        "price": 1200000,
         "status": "none"
       },
       {
