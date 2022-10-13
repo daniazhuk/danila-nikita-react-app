@@ -4,7 +4,7 @@ import Store from '../../components/Store/index'
 const ProductPage:FC = () => {
     return (
         <div>
-            <Store />
+            <Store/>
         </div>
     );
 };
