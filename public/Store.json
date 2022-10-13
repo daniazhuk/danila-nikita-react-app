@@ -91,7 +91,7 @@
       },
       {
         "id": 9,
-        "type": "ai",
+        "type": "ac",
         "brand": "Lockheed",
         "url": "https://images.cults3d.com/m-PkegQbmw0Y8b_wCWWaoon722Y=/https://files.cults3d.com/uploaders/22674784/illustration-file/387fde33-6eda-4bea-8293-c90994a395b2/4.png",
         "name": "Lockheed SR-71 BlackBird",
@@ -101,12 +101,12 @@
       },
       {
         "id": 10,
-        "type": "e",
-        "brand": "Mercedes",
-        "url": "",
-        "name": "Mercedes-Benz M119",
+        "type": "ac",
+        "brand": "USSR",
+        "url": "https://cdn.shopify.com/s/files/1/0047/7560/8431/products/HA6010-Su27-UkrainianAF-profile_800x.jpg?v=1622808303",
+        "name": "Ukrainian AF SU-27",
         "description": "",
-        "price": "1200",
+        "price": 1000000,
         "status": "none"
       },
       {
