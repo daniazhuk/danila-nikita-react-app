@@ -17,7 +17,7 @@ const StoreItem: FC<PostItemProps> = ({ product, number, key }) => {
         <div className="data">{product.name}</div>
         <div className="interesting-post-title">{product.description}</div>
         <div className="interesting-post-text">
-          lol
+          {product.price} $
         </div>
       </div>
     </div>

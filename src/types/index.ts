@@ -9,6 +9,7 @@ export type IProd = {
     status: string;
 }
 
+<<<<<<< HEAD
 export type ModalProps = {
     children: React.ReactNode
     title: string
@@ -17,3 +18,19 @@ export type ModalProps = {
 
 
 
+=======
+type IOption = {
+    value: string;
+    name: string
+}
+
+export type ISelect = {
+    options : IOption[];
+    defaultValue: string;
+    value?: number | undefined;
+    onChange: (sort: number)=> void;
+    
+}
+
+
+>>>>>>> 5f42409aefcba157e061ee97d265aa27a5879cad
