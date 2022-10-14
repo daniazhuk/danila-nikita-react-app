@@ -9,3 +9,11 @@ export type IProd = {
     status: string;
 }
 
+export type ModalProps = {
+    children: React.ReactNode
+    title: string
+    onClose: () => void
+}
+
+
+

@@ -107,8 +107,8 @@
 
  /* ////////////////////////   NAVBAR     ///////////////////////////// */
  
- nav {
-  width: 100vw;
+nav {
+  width: 100vm;
   display: flex;
   padding: 10px;
   background-color: #63636c;
