@@ -5,7 +5,7 @@ import StoreList from "./components/StoreList";
 
 const Store: FC<IProd> = () => {
   const [products, setProducts] = useState<IProd[]>([]);
-  const [selectedSort, setSelectedSort] = useState()
+  const [selectedSort, setSelectedSort] = useState<number>()
 
 
   useEffect(() => {
@@ -18,9 +18,9 @@ const Store: FC<IProd> = () => {
       });
   }, []);
 
-  const sortProducts = (sort: any) => {
+  const sortProducts = (sort: number) => {
     setSelectedSort(sort)
-    setProducts([...products].sort((a,b) => a[sort].localeCompare(b[sort])))
+    setProducts([...products].sort((a,b) => (a as any)[sort].localeCompare((b as any)[sort])))
   }
   return (
     <div>
@@ -31,7 +31,8 @@ const Store: FC<IProd> = () => {
       options={[
         {value: "type", name:"by type"},
         {value: "price", name:"by price"},
-        {value: "name", name:"by name"}
+        {value: "name", name:"by name"},
+        {value: "", name:"none"}
       ]}/>
       <StoreList products={products}/>
     </div>
