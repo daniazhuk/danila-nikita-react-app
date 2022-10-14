@@ -31,7 +31,8 @@ const Store: FC<IProd> = () => {
       options={[
         {value: "type", name:"by type"},
         {value: "price", name:"by price"},
-        {value: "name", name:"by name"}
+        {value: "name", name:"by name"},
+        {value: "", name:"none"}
       ]}/>
       <StoreList products={products}/>
     </div>
