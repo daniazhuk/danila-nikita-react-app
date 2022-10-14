@@ -1,4 +1,5 @@
 import React, { FC, useState, useEffect } from "react";
+import { urlToHttpOptions } from "url";
 import { IProd } from "../../../types";
 import Select from "../../common/Select/Select";
 import StoreList from "./components/StoreList";
@@ -18,9 +19,20 @@ const Store: FC<IProd> = () => {
       });
   }, []);
 
-  const sortProducts = (sort: number) => {
-    setSelectedSort(sort)
+  const sortProducts = (sort: any) => {
+    if (sort === 'price') {
+      setSelectedSort(sort)
+      console.log(sort)
+      setProducts([...products].sort((a,b) => (a as any)[sort] - (b as any)[sort]))
+    }
+    if (sort === '') {
+      setSelectedSort(sort)
+      console.log(sort)
+    } else {
+      setSelectedSort(sort)
+      console.log(sort)
     setProducts([...products].sort((a,b) => (a as any)[sort].localeCompare((b as any)[sort])))
+    }
   }
   return (
     <div>

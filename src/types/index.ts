@@ -17,7 +17,7 @@ type IOption = {
 export type ISelect = {
     options : IOption[];
     defaultValue: string;
-    value: number | undefined;
+    value?: number | undefined;
     onChange: (sort: number)=> void;
     
 }
