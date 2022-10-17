@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-size: 17px;
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.4;
 }
 
@@ -196,6 +196,7 @@ nav a {
 
 .modal {
     position: fixed;
+    backdrop-filter: blur(4px);
     background-color: rgb(0 0 0 / 0.5);
     top: 0px;
     right: 0px;
@@ -204,11 +205,11 @@ nav a {
 }
 
 .modal-container {
+    height: 150px;
     width: 500px;
-    padding: 1.25rem;
-    border-radius: 0.25rem;
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: #fff985;
     position: absolute;
     top: 2.5rem;
     left: 50%;
@@ -216,11 +217,10 @@ nav a {
     transform: translate(var(--tw-translate-x));
 }
 
-.modal-main-tag {
-    font-size: 1.5rem;
-    line-height: 2rem;
+.modal-container h1{
     text-align: center;
-    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .modal-button {
@@ -232,4 +232,36 @@ nav a {
     color: #007fb1;
     margin-left: 20px;
     padding: 10px;
+}
+
+.button-container {
+    margin-top: 67px;
+    text-align: center;
+    padding: 25px;
+}
+
+.modal-continue-button {
+    width: 25%;
+    margin: 0 10% 0 0;
+    border-radius: 10px;
+    border: 3px solid #004159;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #007fb1;
+}
+
+.modal-cancel-button {
+    width: 25%;
+    margin: 0 0 0 10%;
+    border-radius: 10px;
+    border: 3px solid #004159;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #d03333;
+}
+
+.modal-container p {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1rem;
 }

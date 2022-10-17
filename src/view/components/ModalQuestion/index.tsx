@@ -13,12 +13,12 @@ const ModalQuestion = () => {
                         The items are awesome! you should move forward, you will enjoy it!
                     </p>
                 </div>
-                <div>
+                <div className="button-container">
                     <button
-                        className="modal-continue-buttom">Continue
+                        className="modal-continue-button">Continue
                     </button>
                     <button
-                        className="modal-cancel-buttom"
+                        className="modal-cancel-button"
                         onClick={close}
                     >Cancel</button>
                 </div>

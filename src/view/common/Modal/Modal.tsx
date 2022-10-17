@@ -8,7 +8,7 @@ const Modal = ({children, title, onClose}: ModalProps) => {
                 className="modal" onClick={onClose}
             />
             <div className="modal-container">
-                <h1 className="modal-main-tag">{title}</h1>
+                <h1>{title}</h1>
                 {children}
             </div>
         </>
