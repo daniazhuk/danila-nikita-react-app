@@ -1,11 +1,18 @@
-import React from 'react';
+import React from "react";
+import { ModalProps } from "../../../types";
 
-const Modal = () => {
+const Modal = ({children, title, onClose}: ModalProps) => {
     return (
-        <div>
-            <p>asdasdasdasd</p>
-        </div>
-    );
+        <>
+            <div
+                className="modal" onClick={onClose}
+            />
+            <div className="modal-container">
+                <h1>{title}</h1>
+                {children}
+            </div>
+        </>
+    )
 };
 
 export default Modal;

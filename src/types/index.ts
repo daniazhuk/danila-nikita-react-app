@@ -9,7 +9,15 @@ export type IProd = {
     status: string;
 }
 
-type IOption = {
+export type ModalProps = {
+    children: React.ReactNode
+    title: string
+    onClose: () => void
+}
+
+
+
+export type IOption = {
     value: string;
     name: string
 }
@@ -21,5 +29,3 @@ export type ISelect = {
     onChange: (sort: number)=> void;
     
 }
-
-
