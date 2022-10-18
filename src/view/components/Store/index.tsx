@@ -4,7 +4,7 @@ import Select from "../../common/Select/Select";
 import StoreList from "./components/StoreList";
 import {ModalContext} from "../../common/Modal/ModalContext";
 import Modal from "../../common/Modal/Modal";
-import "../../../styles/index.css"
+import "./product.css"
 import ModalQuestion from "../ModalQuestion";
 
 const Store: FC<IProd> = () => {

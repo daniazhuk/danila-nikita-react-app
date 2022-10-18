@@ -1,5 +1,6 @@
 import React, {useContext, useState} from 'react';
 import {ModalContext} from "../../common/Modal/ModalContext";
+// import "../../common/Modal/modal.css"
 
 
 const ModalQuestion = () => {
