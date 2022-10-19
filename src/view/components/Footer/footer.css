@@ -1,34 +1,40 @@
 footer {
     width: 100vm;
-    flex-grow: 1;
+    display:flex;
+    flex-wrap: wrap;
     padding: 10px;
-    background-color: #007fb1;
+    background-color: #445f70;
     padding-left: 10%;
   }
-  
+  footer div {
+    position: relative;
+  }
+  .footer-links {
+    width :50%;
+  }
+
   footer a {
     text-decoration: none;
     margin: 20px 10px 0 10px;
-    width: 15%;
-    text-align: center;
+    width: 30%;
+    text-align: left;
     display: block;
     color:white;
   }
   .footer-logo {
-    color: red;
+    color: rgb(185, 185, 185);
     margin-left: 50px;
-    width: 10%;
-    height: 70px;
+    vertical-align: auto;
     overflow: hidden;
-    display: none;
+    display: flex;
     font-size:30px;
     font-weight: 500;
   }
   .footer-logo span {
-    color: orange;
+    color: rgb(104, 104, 104);
   }
   
-  .navbar-container img {
+  .footer-container img {
     object-fit: cover;
     height: 60px;
   }
@@ -36,15 +42,3 @@ footer {
 
 
 
-  @media (max-width: 700px) {
-    nav a {
-      display: none;
-    }
-    .nav-logo {
-      width: 100%;
-      height: 70px;
-      overflow: hidden;
-      display: block;
-    }
-  }
-  
