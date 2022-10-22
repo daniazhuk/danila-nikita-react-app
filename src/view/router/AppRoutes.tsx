@@ -5,12 +5,13 @@ import ProductPage from '../pages/ProductPage';
 import ProductItemPage from '../pages/ProductItemPage';
 import AboutUsPage from '../pages/AboutUsPage';
 import SocialMediaPage from '../pages/SocialMediaPage';
+import ScrollToTop from "../components/ScrollToTop";
 
 
 const AppRoutes = () => {
   return (
     <>
-      
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={ <HomePage/> } />
         <Route path="/products" element={ <ProductPage/> }/>
