@@ -1,20 +1,22 @@
-import React, {FC} from 'react';
-import '../../../styles/index.css';
-import {Link} from "react-router-dom";
+import React, { FC } from "react";
+import "./footer.css";
+import { Link } from "react-router-dom";
 
-const Footer:FC = () => {
-    return (
-        <nav>
-            <div className="nav-logo">ND<span>Shop</span></div>
+const Footer: FC = () => {
+  return (
+    <footer>
+      <div className="footer-links">
+        <Link to="/">Home</Link>
+        <Link to="/products">Products</Link>
+        <Link to="/about-us">About us</Link>
+        <Link to="/social-media">Social Media</Link>
+      </div>
 
-            <div className="nav-links">
-                <Link to="/">Home</Link>
-                <Link to="/products">Products</Link>
-                <Link to="/about-us">About us</Link>
-                <Link to="/social-media">Social Media</Link>
-            </div>
-        </nav>
-    );
+      <div className="footer-logo">
+        ND<span>Shop</span>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

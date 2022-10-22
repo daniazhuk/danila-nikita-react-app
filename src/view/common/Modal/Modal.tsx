@@ -1,5 +1,6 @@
 import React from "react";
 import { ModalProps } from "../../../types";
+import "./modal.css"
 
 const Modal = ({children, title, onClose}: ModalProps) => {
     return (

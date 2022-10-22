@@ -1,0 +1,74 @@
+.modal {
+    position: fixed;
+    backdrop-filter: blur(4px);
+    background-color: rgb(0 0 0 / 0.5);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.modal-container {
+    height: 150px;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: #fff985;
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x));
+    
+    z-index: 3;
+}
+
+.modal-container h1{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-button {
+    position: fixed;
+    bottom: 25px;
+    background-color: #fff329;
+    border: 5px solid #007fb1;
+    border-radius: 50px;
+    color: #007fb1;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.button-container {
+    margin-top: 67px;
+    text-align: center;
+    padding: 25px;
+}
+
+.modal-continue-button {
+    width: 25%;
+    margin: 0 10% 0 0;
+    border-radius: 10px;
+    border: 3px solid #004159;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #007fb1;
+}
+
+.modal-cancel-button {
+    width: 25%;
+    margin: 0 0 0 10%;
+    border-radius: 10px;
+    border: 3px solid #004159;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #d03333;
+}
+
+.modal-container p {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1rem;
+}

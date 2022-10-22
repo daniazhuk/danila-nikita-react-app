@@ -1,6 +1,6 @@
 import React from "react";
 import { ISelect } from "../../../types";
-import '../../../styles/index.css'
+import './select.css'
 
 const Select = ({ options, defaultValue, value, onChange }: ISelect) => {
   return (
