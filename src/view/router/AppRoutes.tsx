@@ -6,20 +6,21 @@ import ProductPage from '../pages/ProductPage';
 import ProductItemPage from '../pages/ProductItemPage';
 import AboutUsPage from '../pages/AboutUsPage';
 import SocialMediaPage from '../pages/SocialMediaPage';
+import ScrollToTop from "../components/ScrollToTop";
 
 
 const AppRoutes = () => {
   return (
-    <section>
-      
+    <>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={ <HomePage/> } />
         <Route path="/products" element={ <ProductPage/> }/>
-        {/* <Route path="/products/:id" element={ <ProductItemPage/> }/> */}
+        <Route path="/products/:id" element={ <ProductItemPage/> }/>
         <Route path="/about-us" element={ <AboutUsPage/> }/>
         <Route path="/social-media" element={ <SocialMediaPage/> }/>
       </Routes>
-    </section>
+    </>
   )
 }
 
