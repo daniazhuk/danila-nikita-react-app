@@ -1,13 +1,16 @@
 footer {
     width: 100vm;
+    flex-grow: 1;
     display:flex;
     flex-wrap: wrap;
     padding: 10px;
+    background-color: #007fb1;
     background-color: #445f70;
     padding-left: 10%;
   }
+
   footer div {
-    position: relative;
+    position: relative;   
   }
   .footer-links {
     width :50%;
@@ -16,6 +19,8 @@ footer {
   footer a {
     text-decoration: none;
     margin: 20px 10px 0 10px;
+    width: 15%;
+    text-align: center;
     width: 30%;
     text-align: left;
     display: block;
