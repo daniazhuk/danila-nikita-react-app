@@ -15,8 +15,6 @@ export type ModalProps = {
     onClose: () => void
 }
 
-
-
 export type IOption = {
     value: string;
     name: string
