@@ -9,7 +9,6 @@ const ProductItemPage: FC<IProd> = () => {
       .then((response) => response.json())
       .then((products: IProd) => {
         setProduct(product);
-        console.log(product);
       });
   }, []);
   return (
