@@ -1,10 +1,10 @@
 footer {
-    width: 100vm;
+    width: 100%;
     flex-grow: 1;
     display:flex;
     flex-wrap: wrap;
     padding: 10px;
-    background-color: #007fb1;
+    /* background-color: #007fb1; */
     background-color: #445f70;
     padding-left: 10%;
   }
