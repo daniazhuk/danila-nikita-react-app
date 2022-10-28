@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import {IProd} from "../../../../types" 
 import TopItem from "./TopItem";
-
+import "../top.css"
 
 interface TopListProps{
   products:IProd[]
@@ -17,13 +17,13 @@ const TopList: FC<TopListProps> = ({ products }) => {
   }
 
   return (
-    <div className="interesting-posts-container">
+    <div className="posts-container">
       <hr  />
       <strong >
         Top Products
       </strong>
-      <div className="interesting-posts">
-        {products.map((product, index) => (
+      <div className="posts">
+        {products.filter(i => i.status === "top").map((product, index) => (
           <TopItem number={index + 1} product={product} key={product.id} />
         ))}
       </div>

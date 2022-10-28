@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { IProd } from "../../../../types";
+import "../top.css";
 
 interface TopItemProps {
   product: IProd;
@@ -9,17 +10,18 @@ interface TopItemProps {
 
 const TopItem: FC<TopItemProps> = ({ product, number, key }) => {
   return (
-    <div className="interesting-post">
-      <div className="interesting-post-img">
-        <img src={product.url} alt="img" />
-      </div>
-      <div className="interesting-post-content">
-        <div className="data">{product.name}</div>
-        <div className="interesting-post-title">{product.description}</div>
-        <div className="interesting-post-text">
-          {product.price} $
+    <div className="post">
+      <div className="data">{product.name}</div>
+      <div className="img-and-title">
+        <div className="post-img">
+          <img src={product.url} alt="img" />
+        </div>
+        <div className="post-content">
+          <div className="post-title">{product.description}</div>
+          <div className="post-text">{product.price} $</div>
         </div>
       </div>
+      <img src="https://i.gifer.com/origin/d6/d6abed6047c79b8073fda9af7ba85358.gif"  className="sign" alt="img"/>
     </div>
   );
 };

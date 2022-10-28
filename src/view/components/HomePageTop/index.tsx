@@ -1,6 +1,7 @@
 import React, {FC, useState, useEffect} from 'react';
 import { IProd } from '../../../types';
 import TopList from './components/TopList';
+import "./top.css"
 
 const HomePageTop:FC<IProd> = () => {
     const [products, setProducts] = useState<IProd[]>([]);
