@@ -1,0 +1,162 @@
+[
+    {
+      "id": 0,
+      "type": "e",
+      "brand": "Mercedes",
+      "url": "https://www.picclickimg.com/I6UAAOSwr2xjCL1w/MOTORE-MERCEDES-E-Class-w210-605962-605962-Diesel-Engine.jpg",
+      "name": "Mercedes-Benz OM606 TD I6",
+      "description": "Popularly called as Diesel 2JZ. The MB OM606 - is straight inline 6, 3.0 turbo diesel. These engines deliver standard 177 HP, tuning to 250 HP and even 650 HP is possible. Also their fuel consumption is reasonably favorable with a min of 13L / 100Km. Tuned versions need 20L/100km, including the black exhaust smoke!",
+      "price": 1200,
+      "status": "none"
+    },
+    {
+        "id": 1,
+        "type": "e",
+        "brand": "Toyota",
+        "url": "https://s.alicdn.com/@sc04/kf/H3be8dc061847474ebe265f9e0e269e16B.jpeg",
+        "name": "Toyota 2JZ-GTE I6",
+        "description": "The legendary heart. Inline 6, 3.0 litre turbochargered oldschool classic. It can be forced for more than 600HP on a stock parts",
+        "price": 1550,
+        "status": "none"
+      },
+      {
+        "id": 2,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "https://avtotachki.com/wp-content/uploads/2021/07/dvigatel-mersedes-m119.jpg",
+        "name": "Mercedes-Benz M119 V8",
+        "description": "Turns a sheep into a wolf. The Mercedes-Benz M119 engine is a V8 gasoline engine that was introduced in 1989 to replace the M117 engine. The M119 engine has an aluminum and the same cylinder head, forged connecting rods, cast aluminum pistons, two camshafts for each cylinder bank (DOHC), chain drive and four valves per cylinder.",
+        "price": 1800,
+        "status": "top"
+      },
+      {
+        "id": 3,
+        "type": "e",
+        "brand": "Toyota",
+        "url": "https://massive.ua/image/engine-image/1uzfe.jpg",
+        "name": "Toyota 1UZ-FE V8",
+        "description": "The 4.0-liter V8 Toyota 1UZ-FE engine was assembled at the Tahara plant from 1989 to 2004 and installed on the most powerful rear-wheel drive models",
+        "price": 1620,
+        "status": "none"
+      },
+      {
+        "id": 4,
+        "type": "e",
+        "brand": "Nissan",
+        "url": "https://i.ebayimg.com/images/g/ZJEAAOSwd4VixEH3/s-l500.jpg",
+        "name": "Nissan GTR VR38DETT",
+        "description": "The continuation of the GTR era - nissan VR38DETT is a 3.8 l twinturbo V6 60° 4-stroke gasoline engine from Nissan VR-family. The engine has been manufactured since 2007. It can be monstrously forced by special stroker kits",
+        "price": 3800,
+        "status": "top"
+      },
+      {
+        "id": 5,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "https://centr-turbin.com/user_files/upload/zamena-turbiny-na-mersedes-vito.jpg",
+        "name": "Mercedes-Benz M120",
+        "description": "The M120 family is built in Stuttgart, Germany. It has an aluminium V12 6.0 litre engine block lined with silicon/aluminium. The aluminium DOHC cylinder heads are 4 valves per cylinder designs. It uses sequential fuel injection (SFI) and features forged steel connecting rods. An excellent weight-to-power ratio made it possible to install this motor on a Pagani Zonda",
+        "price": 2600,
+        "status": "top"
+      },
+      {
+        "id": 6,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "https://www.motoresdyg.com/content/piezas/motor-mercedes-benz-230-w124-230-e-132-cv-8084-0.jpg",
+        "name": "Mercedes-Benz M102",
+        "description": "100hp and 1000000 kilometers. The M102 engine family is a inline-four gasoline automobile engine family built by Mercedes-Benz in the 1980s and early 1990s. It is a relatively oversquare engine with a large bore and short stroke compared to the M115 engine which was used during the same timeframe.",
+        "price": 800,
+        "status": "none"
+      },
+      {
+        "id": 7,
+        "type": "e",
+        "brand": "Honda",
+        "url": "https://www.toda-racing.co.jp/en/product/comp/comp-f20c-1.jpg",
+        "name": "Honda F20C",
+        "description": "The F20C and F22C1 were inline-4 engines produced by Honda for use in the Honda S2000. They are one of the few Honda 4-cylinder automobile engines that are designed to sit longitudinally for rear wheel drive.",
+        "price": 1800,
+        "status": "none"
+      },
+      {
+        "id": 8,
+        "type": "e",
+        "brand": "Mercedes",
+        "url": "https://cdn.nordicmotorcenter.se/media/catalog/product/cache/14/image/650x520/9df78eab33525d08d6e5fb8d27136e95/d/s/dsc_0513_10.jpg",
+        "name": "Mercedes-Benz OM611",
+        "description": "Sprinters best turbudiesel engine!!!! I want to tear up that turbodiesel a little",
+        "price": 1450,
+        "status": "none"
+      },
+      {
+        "id": 9,
+        "type": "ac",
+        "brand": "Lockheed",
+        "url": "https://www.magnum-x.pl/files/artykuly/lotnictwo/97_lotnictwo_2011_04/4.png",
+        "name": "Lockheed SR-71 BlackBird",
+        "description": "The Lockheed SR-71 Blackbird is a full-titanium two-seat twin-engined long-range supersonic strategic reconnaissance aircraft produced by the American manufacturer Lockheed Corporation.",
+        "price": 7500000,
+        "status": "top"
+      },
+      {
+        "id": 10,
+        "type": "ac",
+        "brand": "USSR",
+        "url": "https://cdn.shopify.com/s/files/1/0047/7560/8431/products/HA6010-Su27-UkrainianAF-profile_800x.jpg?v=1622808303",
+        "name": "Ukrainian AF SU-27",
+        "description": "The Sukhoi Su-27 is a Soviet-origin twin-engine supermaneuverable fighter aircraft designed by Sukhoi. It was intended as a direct competitor for the large US fourth-generation jet fighters",
+        "price": 2204000,
+        "status": "none"
+      },
+      {
+        "id": 11,
+        "type": "ac",
+        "brand": "BayKar",
+        "url": "https://www.bta.bg/upload/73412/Bayraktar.png?l=1000&original=2900b095db5e6db18b12eff6f5a1b4a94db63345",
+        "name": "Bayraktar TB2",
+        "description": "Bayraktar TB2 (“standard-bearer”) is a Turkish strike operational-tactical medium-altitude UAV with an internal combustion engine and a long pusher-type propeller. Bayraktar TB2 with 4 public-operated on the suspension can be on the island from 12 to 24 hours.",
+        "price": 1255000,
+        "status": "top"
+      },
+      {
+        "id": 12,
+        "type": "e",
+        "brand": "Nissan",
+        "url": "https://i.ebayimg.com/images/g/KnUAAOSwULpf~d9q/s-l1600.jpg",
+        "name": "Nissan RB26DETT",
+        "description": "2600cc DOHC Electronic Twin Turbo. The RB26DETT family of engines powered quite a few iconic cars. From R32 to R34 GT-Rs, Nissan’s idea of an inline-six powerhouse was a treat for enthusiasts and tuners alike. The RB26 was a derivative of the RB25 that equipped the Skyline GT-S.",
+        "price": 3200,
+        "status": "none"
+      },
+      {
+        "id": 13,
+        "type": "e",
+        "brand": "",
+        "url": "https://i.pinimg.com/originals/f6/d2/b4/f6d2b4590ebabc1c4d8add0bc5ac36a4.jpg",
+        "name": "",
+        "description": "cause (light or shadow) to appear on a surface. The moon cast a pale light over the cottages",
+        "price": 0,
+        "status": "none"
+      },
+      {
+        "id": 14,
+        "type": "e",
+        "brand": "",
+        "url": "https://i.pinimg.com/originals/f6/d2/b4/f6d2b4590ebabc1c4d8add0bc5ac36a4.jpg",
+        "name": "",
+        "description": "cause (light or shadow) to appear on a surface. The moon cast a pale light over the cottages",
+        "price": 0,
+        "status": "none"
+      },
+      {
+        "id": 15,
+        "type": "e",
+        "brand": "",
+        "url": "https://i.pinimg.com/originals/f6/d2/b4/f6d2b4590ebabc1c4d8add0bc5ac36a4.jpg",
+        "name": "",
+        "description": "cause (light or shadow) to appear on a surface. The moon cast a pale light over the cottages",
+        "price": 0,
+        "status": "none"
+      }
+    ]    
