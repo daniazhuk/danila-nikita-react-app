@@ -7,6 +7,7 @@ import ProductItemPage from '../pages/ProductItemPage';
 import AboutUsPage from '../pages/AboutUsPage';
 import SocialMediaPage from '../pages/SocialMediaPage';
 import ScrollToTop from "../components/ScrollToTop";
+import LogInPage from "../pages/LogInPage";
 
 
 const AppRoutes = () => {
@@ -16,9 +17,10 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={ <HomePage/> } />
         <Route path="/products" element={ <ProductPage/> }/>
-        {/* <Route path="/products/:id" element={ <ProductItemPage/> }/> */}
+         {/*<Route path="/products/:id" element={ <ProductItemPage/> }/> */}
         <Route path="/about-us" element={ <AboutUsPage/> }/>
         <Route path="/social-media" element={ <SocialMediaPage/> }/>
+        <Route path="/log-in" element={< LogInPage/> }/>
       </Routes>
     </>
   )

@@ -13,6 +13,7 @@ const Navigation: FC = () => {
       <Link to="/products">Products</Link>
       <Link to="/about-us">About us</Link>
       <Link to="/social-media">Social Media</Link>
+      <Link to="/log-in">Log In</Link>
     </nav>
   );
 };

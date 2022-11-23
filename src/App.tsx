@@ -7,8 +7,8 @@ import Footer from "./view/components/Footer";
 const App = () => {
   return (
     <div className="wrapper">
-      <Navigation />
-      <AppRoutes />
+      <Navigation/>
+      <AppRoutes/>
       <Footer/>
     </div>
   );
