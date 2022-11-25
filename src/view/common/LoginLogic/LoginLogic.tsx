@@ -28,7 +28,7 @@ function LoginLogic() {
     }
 
     return (
-        <div>
+        <div className="welcome-page">
             {(user.email != "") ? (
                 <div className="welcome">
                     <h2>Welcome, <span>{user.name}</span></h2>

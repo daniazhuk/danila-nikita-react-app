@@ -1,5 +1,4 @@
 nav {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -11,18 +10,18 @@ nav a {
     text-decoration: none;
     width: 15%;
     align-items: center;
-    text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
     color: #D6D6D6;
 }
 
 .nav-logo {
     color: #fff329;
-    margin-left: 1px;
-    width: 10%;
-    height: 70px;
-    overflow: hidden;
+    margin: 0px 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
@@ -31,10 +30,10 @@ nav a {
     color: #007fb1;
 }
 
-.navbar-container img {
-    object-fit: cover;
-    height: 60px;
-}
+/*.navbar-container img {*/
+/*    object-fit: cover;*/
+/*    height: 60px;*/
+/*}*/
 
 
 /*@media (max-width: 1400px) {*/

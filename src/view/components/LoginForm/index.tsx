@@ -4,7 +4,7 @@ import "../../common/LoginLogic/loginform.css"
 const LoginForm = ({Login, error}) => {
     const [details, setDetails] = useState({name: "", email: "", password: ""})
 
-
+ 
     const submitHandler = e => {
         e.preventDefault();
 
